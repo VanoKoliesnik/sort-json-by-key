@@ -1,0 +1,17 @@
+{
+	"name": "sort-json-by-key",
+	"version": "1.0.0",
+	"description": "This script sort your JSON file by key and output in separate files like [key].json",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/VanoKoliesnik/sort-json-by-key.git"
+	},
+	"author": "IvaKoliesnik [kolesnikivan1002@gmail.com]",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/VanoKoliesnik/sort-json-by-key/issues"
+	},
+	"homepage": "https://github.com/VanoKoliesnik/sort-json-by-key#readme"
+}
