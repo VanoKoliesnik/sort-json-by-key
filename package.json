@@ -10,11 +10,21 @@
 	},
 	"author": "IvanKoliesnik [kolesnikivan1002@gmail.com]",
 	"license": "ISC",
+	"bin": {
+		"sort-json-by-key": "./index.js"
+	},
 	"bugs": {
 		"url": "https://github.com/VanoKoliesnik/sort-json-by-key/issues"
 	},
 	"homepage": "https://github.com/VanoKoliesnik/sort-json-by-key#readme",
 	"dependencies": {
 		"commander": "^7.2.0"
-	}
+	},
+	"keywords": [
+		"cli",
+		"script",
+		"json",
+		"parser",
+		"js"
+	]
 }

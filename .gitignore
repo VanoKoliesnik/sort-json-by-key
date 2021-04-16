@@ -3,3 +3,5 @@
 !.gitignore
 !index.js
 !package.json
+!README.md
+!LICENSE
