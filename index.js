@@ -1,8 +1,20 @@
 const fs = require("fs");
+const commander = require("commander");
 
-const FILE_NAME = "city-list.json";
-const OUTPUT_DIR = "country";
-const KEY = "country";
+const program = new commander.Command();
+
+program
+	.requiredOption("-f, --file-name <type>", "path to JSON file name")
+	.requiredOption("-k, --key <type>", "key to parse")
+	.option("-o, --output <type>", "directory to output");
+
+program.parse(process.argv);
+
+const options = program.opts();
+
+const FILE_NAME = options.fileName;
+const OUTPUT_DIR = options.output ? options.output : "./";
+const KEY = options.key;
 
 async function readFile(filePath) {
 	try {
