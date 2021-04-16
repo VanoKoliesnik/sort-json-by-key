@@ -8,10 +8,13 @@
 		"type": "git",
 		"url": "git+https://github.com/VanoKoliesnik/sort-json-by-key.git"
 	},
-	"author": "IvaKoliesnik [kolesnikivan1002@gmail.com]",
+	"author": "IvanKoliesnik [kolesnikivan1002@gmail.com]",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/VanoKoliesnik/sort-json-by-key/issues"
 	},
-	"homepage": "https://github.com/VanoKoliesnik/sort-json-by-key#readme"
+	"homepage": "https://github.com/VanoKoliesnik/sort-json-by-key#readme",
+	"dependencies": {
+		"commander": "^7.2.0"
+	}
 }
