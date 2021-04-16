@@ -1,6 +1,6 @@
 {
 	"name": "sort-json-by-key",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"description": "This script sort your JSON file by key and output in separate files like [key].json",
 	"main": "index.js",
 	"scripts": {},
